@@ -44,10 +44,10 @@ namespace AMaze
 
 		private void FixedUpdate()
 		{
-			GeneratedMaze.AngularVelocity = new Vector3(_pitch, _yaw, _roll) * Time.DeltaTime;
-			/*_pitch = _pitch - _pitch * Damping * Time.DeltaTime;
+			GeneratedMaze.AngularVelocity += new Vector3(_pitch, _yaw, _roll) * Time.DeltaTime;
+			_pitch = _pitch - _pitch * Damping * Time.DeltaTime;
 			_yaw = _yaw - _yaw * Damping * Time.DeltaTime;
-			_roll = _roll - _roll * Damping * Time.DeltaTime;*/
+			_roll = _roll - _roll * Damping * Time.DeltaTime;
 
 			Maze.LocalOrientation = GeneratedMaze.LocalOrientation;
 		}

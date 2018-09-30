@@ -111,7 +111,7 @@
 			"V": {
 	"Maze": "a4d00bd7406f8bdfe60f28985fb4fbf2",
 	"GeneratedMaze": "d10fc58749400a6d80a028944eb50011",
-	"Damping": 0.9,
+	"Damping": 5.0,
 	"Speed": 0.1
 }
 		},

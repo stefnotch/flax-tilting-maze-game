@@ -1,7 +1,7 @@
 {
 	"ID": "07a6aae34c009c3048eb93b458bd85df",
 	"TypeName": "FlaxEditor.Content.Settings.PhysicsSettings",
-	"EngineBuild": 6166,
+	"EngineBuild": 6169,
 	"Data": {
 	"DefaultGravity": {
 		"X": 0.0,
@@ -16,7 +16,7 @@
 	"DisableCCD": false,
 	"EnableAdaptiveForce": false,
 	"MaxDeltaTime": 0.1,
-	"EnableSubstepping": false,
+	"EnableSubstepping": true,
 	"SubstepDeltaTime": 0.008333334,
 	"MaxSubsteps": 5,
 	"LayerMasks": [
