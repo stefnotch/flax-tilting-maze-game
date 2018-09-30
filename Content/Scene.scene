@@ -1,7 +1,7 @@
 {
 	"ID": "74a68a984824b4510d12589f199ad68f",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 6166,
+	"EngineBuild": 6169,
 	"Data": [
 		{
 			"TypeID": 9,
@@ -15,14 +15,7 @@
 					"Lightmap2": "69b94adb41aca213ce537d91d53dc89d"
 				}
 			],
-			"LightmapSettings": {
-				"GlobalObjectsScale": 1.0
-			},
-			"CSG": {
-				"Model": "c91570f843acc5d741133b803211d574",
-				"Data": "0e5f7de9441f282e370327b31385c016",
-				"CollisionData": "104e0dc7466c412f593951a357343ccf"
-			}
+			"LightmapSettings": {}
 		},
 		{
 			"TypeID": 3,
@@ -48,21 +41,6 @@
 			"FogSunPower": 9.0
 		},
 		{
-			"TypeID": 7,
-			"ID": "da5e1c454a56377517d41686ebb0348f",
-			"ParentID": "28553d634087c67c711ebd96080482aa",
-			"Name": "Environment Probe",
-			"Transform": {
-				"Translation": {
-					"X": 0.0,
-					"Y": 72.001953125,
-					"Z": 0.0
-				}
-			},
-			"Radius": 500.0,
-			"ProbeID": "1e1fb3a7447c1265b15967b480549d98"
-		},
-		{
 			"TypeID": 4,
 			"ID": "deecf0894777293a4f478dadacf2a6f8",
 			"ParentID": "28553d634087c67c711ebd96080482aa",
@@ -86,6 +64,7 @@
 				"B": 0.8050000071525574,
 				"A": 1.0
 			},
+			"Brightness": 10.0,
 			"MinRoughness": 0.0,
 			"ShadowsDistance": 2000.0,
 			"ShadowsFadeDistance": 50.0
@@ -102,85 +81,7 @@
 					"Z": 0.0
 				}
 			},
-			"Brightness": 1.7999999523162842,
 			"CustomTexture": "1e1fb3a7447c1265b15967b480549d98"
-		},
-		{
-			"TypeID": 3,
-			"ID": "71485f22423f938f9572b7b9779a44d5",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "Brushes"
-		},
-		{
-			"TypeID": 8,
-			"ID": "b0af681c49f525c9996e3c8feb3c4a03",
-			"ParentID": "71485f22423f938f9572b7b9779a44d5",
-			"Name": "Box Brush",
-			"Size": {
-				"X": 300.0,
-				"Y": 10.0,
-				"Z": 300.0
-			},
-			"Surfaces": [
-				{
-					"Material": "7d946f724cffb015b4268091089793d8"
-				},
-				{
-					"Material": "7d946f724cffb015b4268091089793d8"
-				},
-				{
-					"Material": "7d946f724cffb015b4268091089793d8"
-				},
-				{
-					"Material": "7d946f724cffb015b4268091089793d8",
-					"ScaleInLightmap": 0.0
-				},
-				{
-					"Material": "7d946f724cffb015b4268091089793d8"
-				},
-				{
-					"Material": "7d946f724cffb015b4268091089793d8"
-				}
-			]
-		},
-		{
-			"TypeID": 8,
-			"ID": "56e934c543c02d12fecc6e8a563ee2af",
-			"ParentID": "71485f22423f938f9572b7b9779a44d5",
-			"Name": "Box Brush",
-			"Transform": {
-				"Translation": {
-					"X": 24.59819793701172,
-					"Y": 28.155338287353517,
-					"Z": -60.500328063964847
-				}
-			},
-			"Size": {
-				"X": 60.0,
-				"Y": 50.0,
-				"Z": 60.0
-			},
-			"Surfaces": [
-				{
-					"Material": "6e30906747fab8d036e77ea7f05cc030"
-				},
-				{
-					"Material": "6e30906747fab8d036e77ea7f05cc030"
-				},
-				{
-					"Material": "6e30906747fab8d036e77ea7f05cc030"
-				},
-				{
-					"Material": "6e30906747fab8d036e77ea7f05cc030",
-					"ScaleInLightmap": 0.0
-				},
-				{
-					"Material": "6e30906747fab8d036e77ea7f05cc030"
-				},
-				{
-					"Material": "6e30906747fab8d036e77ea7f05cc030"
-				}
-			]
 		},
 		{
 			"TypeID": 2,
@@ -189,41 +90,346 @@
 			"Name": "Camera",
 			"Transform": {
 				"Translation": {
-					"X": -9.165190696716309,
-					"Y": 68.88692474365235,
-					"Z": 80.31642150878906
+					"X": -2759.285888671875,
+					"Y": 364.01104736328127,
+					"Z": -2403.278076171875
 				},
 				"Orientation": {
-					"X": 0.022202536463737489,
-					"Y": 0.9633283615112305,
-					"Z": -0.08428028970956803,
-					"W": 0.2537761330604553
+					"X": 0.2139890342950821,
+					"Y": 0.5708931088447571,
+					"Z": -0.15724803507328034,
+					"W": 0.7768930196762085
 				}
 			},
 			"StaticFlags": 0,
 			"Near": 0.10000000149011612
 		},
 		{
-			"TypeID": 24,
-			"ID": "a9ae06ec42882434ee61aab42a1c82c5",
-			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "CSG.Collider",
-			"HideFlags": 4,
-			"CollisionData": "104e0dc7466c412f593951a357343ccf"
+			"TypeID": "AMaze.MazeTilter",
+			"ID": "c68522284104442eda31da8657ea4c40",
+			"ParentID": "b0d72c3746caebca055e1f921ca21c7c",
+			"V": {
+	"Maze": "a4d00bd7406f8bdfe60f28985fb4fbf2",
+	"GeneratedMaze": "d10fc58749400a6d80a028944eb50011",
+	"Damping": 0.9,
+	"Speed": 0.1
+}
 		},
 		{
-			"TypeID": 1,
-			"ID": "7eff8e8543a2b10f19dc35b92fc11b99",
+			"TypeID": 3,
+			"ID": "a4d00bd7406f8bdfe60f28985fb4fbf2",
 			"ParentID": "74a68a984824b4510d12589f199ad68f",
-			"Name": "CSG.Model",
-			"HideFlags": 4,
-			"Model": "c91570f843acc5d741133b803211d574",
+			"Name": "Maze",
+			"Transform": {
+				"Translation": {
+					"X": -2500.0,
+					"Y": 0.0,
+					"Z": -2500.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "ba8d7f0e4566bd85c372769fde52b199",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "d4c962a5468060daa72a2297f198e3c1",
+			"ParentID": "a4d00bd7406f8bdfe60f28985fb4fbf2",
+			"Name": "Wall 2",
+			"Transform": {
+				"Translation": {
+					"X": 1950.0,
+					"Y": 0.0,
+					"Z": 950.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 1.0,
+					"Z": 1.0
+				}
+			}
+		},
+		{
+			"ID": "2845f7b542ae1b35e5b36b9a4cab216f",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "41436ceb46390291b3a3daaa8cfaba0b",
+			"ParentID": "ba8d7f0e4566bd85c372769fde52b199",
 			"Buffer": {
 				"Entries": [
-					{},
 					{}
 				]
 			}
+		},
+		{
+			"ID": "5b6a68e34b3116798912dc8cb7e3b2db",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "c853d6e4419b04c0545dcda509935956",
+			"ParentID": "ba8d7f0e4566bd85c372769fde52b199"
+		},
+		{
+			"ID": "a3139556434383607ffb4a8c64a615b8",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "d4c962a5468060daa72a2297f198e3c1",
+			"ParentID": "a4d00bd7406f8bdfe60f28985fb4fbf2",
+			"Name": "Wall 1",
+			"Transform": {
+				"Translation": {
+					"X": -50.0,
+					"Y": 0.0,
+					"Z": 950.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 0.7071068286895752,
+					"Z": 0.0,
+					"W": 0.7071068286895752
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 1.0,
+					"Z": 1.0
+				}
+			}
+		},
+		{
+			"ID": "46f004734c162d063af9799a7362737f",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "41436ceb46390291b3a3daaa8cfaba0b",
+			"ParentID": "a3139556434383607ffb4a8c64a615b8",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "40b1299c41851f8a9924fd965e6696c1",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "c853d6e4419b04c0545dcda509935956",
+			"ParentID": "a3139556434383607ffb4a8c64a615b8"
+		},
+		{
+			"ID": "58904caf459eabac1f69939b63247527",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "d4c962a5468060daa72a2297f198e3c1",
+			"ParentID": "a4d00bd7406f8bdfe60f28985fb4fbf2",
+			"Name": "Wall 0",
+			"Transform": {
+				"Translation": {
+					"X": 950.0,
+					"Y": 0.0,
+					"Z": 1950.0
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 1.0,
+					"Z": 1.0
+				}
+			}
+		},
+		{
+			"ID": "9119f93241400a3d45a75fa73e051320",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "41436ceb46390291b3a3daaa8cfaba0b",
+			"ParentID": "58904caf459eabac1f69939b63247527",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "d38df9624c34655330982bbd2bdb6a99",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "c853d6e4419b04c0545dcda509935956",
+			"ParentID": "58904caf459eabac1f69939b63247527"
+		},
+		{
+			"ID": "cc6b5c1942f986424078afa2c3646fd3",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "d4c962a5468060daa72a2297f198e3c1",
+			"ParentID": "a4d00bd7406f8bdfe60f28985fb4fbf2",
+			"Name": "Wall",
+			"Transform": {
+				"Translation": {
+					"X": 950.0,
+					"Y": 0.0,
+					"Z": -50.0
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 1.0,
+					"Z": 1.0
+				}
+			}
+		},
+		{
+			"ID": "51802be24432e9d307a4d983e2542065",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "41436ceb46390291b3a3daaa8cfaba0b",
+			"ParentID": "cc6b5c1942f986424078afa2c3646fd3",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "566df0da43824a9bf12c17bbef7e355d",
+			"PrefabID": "0821dcc14aff6e8539a2aab079444260",
+			"PrefabObjectID": "c853d6e4419b04c0545dcda509935956",
+			"ParentID": "cc6b5c1942f986424078afa2c3646fd3"
+		},
+		{
+			"TypeID": 3,
+			"ID": "60ec7f14454445fa70aee18d8d337491",
+			"ParentID": "a4d00bd7406f8bdfe60f28985fb4fbf2",
+			"Name": "Floor",
+			"StaticFlags": 0
+		},
+		{
+			"TypeID": 14,
+			"ID": "6e3aa0bb45d819687fa176bf70f73bb9",
+			"ParentID": "60ec7f14454445fa70aee18d8d337491",
+			"Name": "BoxCollider",
+			"Transform": {
+				"Translation": {
+					"X": 950.0,
+					"Y": -100.0,
+					"Z": 950.0
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 1.0,
+					"Z": 20.0
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"TypeID": 1,
+			"ID": "09ce645246e72fe0ce860ca9527357be",
+			"ParentID": "60ec7f14454445fa70aee18d8d337491",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": 950.0,
+					"Y": -100.0,
+					"Z": 950.0
+				},
+				"Scale": {
+					"X": 20.0,
+					"Y": 1.0,
+					"Z": 20.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "1df990644fdb56028ec0d4b5500ee930"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 11,
+			"ID": "124cb1704de6ef233b748385a79dcfa8",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "Ball",
+			"Transform": {
+				"Translation": {
+					"X": -2500.0,
+					"Y": 20.0,
+					"Z": -2500.0
+				}
+			},
+			"StaticFlags": 0,
+			"EnableSimulation": true,
+			"UseCCD": true,
+			"EnableGravity": true,
+			"StartAwake": true
+		},
+		{
+			"TypeID": "AMaze.NeverSleep",
+			"ID": "917565bb4d77161c9c17cc8a6964513a",
+			"ParentID": "124cb1704de6ef233b748385a79dcfa8",
+			"V": {}
+		},
+		{
+			"TypeID": 1,
+			"ID": "78b7f70a4316c61439a6b09c70f4e8f3",
+			"ParentID": "124cb1704de6ef233b748385a79dcfa8",
+			"Name": "Sphere",
+			"Transform": {
+				"Scale": {
+					"X": 0.6000000238418579,
+					"Y": 0.6000000238418579,
+					"Z": 0.6000000238418579
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "dd86c4724bf734c4959d23b3c74faa05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "216839744d65f757a9f9b88e1d78f324"
+					}
+				]
+			}
+		},
+		{
+			"TypeID": 15,
+			"ID": "a705200441c85e68d538f18ff89c23c6",
+			"ParentID": "124cb1704de6ef233b748385a79dcfa8",
+			"Name": "SphereCollider",
+			"Transform": {
+				"Scale": {
+					"X": 0.6000000238418579,
+					"Y": 0.6000000238418579,
+					"Z": 0.6000000238418579
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"TypeID": 11,
+			"ID": "d10fc58749400a6d80a028944eb50011",
+			"ParentID": "74a68a984824b4510d12589f199ad68f",
+			"Name": "GeneratedMaze",
+			"Transform": {
+				"Translation": {
+					"X": -2500.0,
+					"Y": 0.0,
+					"Z": -2500.0
+				}
+			},
+			"StaticFlags": 0,
+			"EnableSimulation": true,
+			"EnableGravity": false,
+			"StartAwake": true
+		},
+		{
+			"TypeID": "AMaze.MazeGenerator",
+			"ID": "0aac9f494c6cffd88acc15ba00535fc2",
+			"ParentID": "d10fc58749400a6d80a028944eb50011",
+			"V": {
+	"MazeWall": "0821dcc14aff6e8539a2aab079444260",
+	"CellSize": {
+		"X": 100.0,
+		"Y": 100.0
+	},
+	"Resolution": {
+		"X": 20,
+		"Y": 20
+	}
+}
 		}
 	]
 }

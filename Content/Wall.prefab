@@ -1,0 +1,50 @@
+{
+	"ID": "0821dcc14aff6e8539a2aab079444260",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6169,
+	"Data": [
+	{
+		"TypeID": 3,
+		"ID": "d4c962a5468060daa72a2297f198e3c1",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Root",
+		"StaticFlags": 0
+	},
+	{
+		"TypeID": 1,
+		"ID": "41436ceb46390291b3a3daaa8cfaba0b",
+		"ParentID": "d4c962a5468060daa72a2297f198e3c1",
+		"Name": "Cube",
+		"Transform": {
+			"Scale": {
+				"X": 1.0,
+				"Y": 1.0,
+				"Z": 0.10000000149011612
+			}
+		},
+		"StaticFlags": 0,
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "1df990644fdb56028ec0d4b5500ee930"
+				}
+			]
+		}
+	},
+	{
+		"TypeID": 14,
+		"ID": "c853d6e4419b04c0545dcda509935956",
+		"ParentID": "d4c962a5468060daa72a2297f198e3c1",
+		"Name": "BoxCollider",
+		"Transform": {
+			"Scale": {
+				"X": 1.0,
+				"Y": 1.0,
+				"Z": 0.10000000149011612
+			}
+		},
+		"StaticFlags": 0
+	}
+]
+}
